@@ -1,12 +1,11 @@
 # phylogenies
-## R code relating to phylogenies
-## I've made trees using a number of publicly available programs. I keep track of the ones I've tried in this repository.
+I've made phylogenetic trees using a variety of publicly available programs. I keep track of the ones I've tried in this repository.
 
-# Used the ncbi datasets API to pull genomes for phylogeny building eg...
-datasets download genome taxon Bacillus_flexus --reference
+## Use the ncbi datasets API to pull genomes for phylogeny building eg...
+datasets download genome taxon Paenibacillus --reference
 Each phylogeny builder requires extracting the genomes into a specific directory structure..
 
-# using VBCG (validated core genes)
+## using VBCG (validated core genes)
 #VBCG is highly preferred compared to the other methods for fast and validated workflow
 ## install based on instructions at https://github.com/tianrenmaogithub/vbcg
 mamba activate vbcg
